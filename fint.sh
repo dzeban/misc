@@ -36,16 +36,16 @@ yum -y install ${PKGS[*]}
 cd ~ && wget -O - "https://www.dropbox.com/download?plat=lnx.x86_64" | tar xzf -
 
 # Install custom dwm from my github dwm mirror
+cd ..
 git clone https://github.com/dzeban/dwm.git
 cd dwm
 make clean install
-cd ~
 
 # Install dmenu
+cd ..
 git clone http://git.suckless.org/dmenu
 cd dmenu
 make clean install
-cd ~
 
 # ==============================================
 #                CONFIGURATION
