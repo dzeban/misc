@@ -17,7 +17,7 @@ freetype-infinality fontconfig-infinality    # Infinality patches
 # ==============================================
 
 # Enable RPM Fusion repo
-yum -y install --nogpgcheck http://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm %http://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm %-E %fedora).noarch.rpm
+yum -y install --nogpgcheck http://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm http://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm
 
 # Enable Russian Fedora repo
 yum -y install --nogpgcheck http://mirror.yandex.ru/fedora/russianfedora/russianfedora/free/fedora/russianfedora-free-release-stable.noarch.rpm http://mirror.yandex.ru/fedora/russianfedora/russianfedora/nonfree/fedora/russianfedora-nonfree-release-stable.noarch.rpm
