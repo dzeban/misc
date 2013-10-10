@@ -2,12 +2,12 @@
 
 PKGS=(
 vim wget tar git mc        # Utils
-gcc make                   # For building
+gcc make patch             # For building
 lilyterm                   # Terminal
 alsa-lib alsa-utils        # ALSA stuff
 slim @base-x @core         # X needed
 firefox skype geeqie gvim  # Apps
-deadbeef ncmpcpp
+deadbeef ncmpcpp arandr
 libX11-devel libXinerama-devel libxcb-devel  # For dwm
 freetype-infinality fontconfig-infinality    # Infinality patches
 )
