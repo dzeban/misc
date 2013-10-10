@@ -23,7 +23,8 @@ function usage
     -h  Prints this nice message
     -r  Repositories setup
     -s  Install useful software
-    -d  Install and configure dwm and dmenu
+    -d  Install and configure dwm
+    -m  Install and configure dmenu
     -w  Configure window manager (adds exec in .xinitrc)
     -c  Do various system configs
 
@@ -110,13 +111,13 @@ fi
 while getopts “hrsdmwc” OPTION
 do
     case $OPTION in
-        h) usage; exit 0;;
-        r) repo_setup   ;;
-        s) soft_install ;;
-        d) dwm_install  ;;
-        m) dwm_install  ;;
-        w) wm_setup     ;;
-        c) sys_config   ;;
-        ?) usage; exit 1;;
+        h) usage; exit 0 ;;
+        r) repo_setup    ;;
+        s) soft_install  ;;
+        d) dwm_install   ;;
+        m) dmenu_install ;;
+        w) wm_setup      ;;
+        c) sys_config    ;;
+        ?) usage; exit 1 ;;
     esac
 done

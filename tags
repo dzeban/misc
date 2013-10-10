@@ -1,0 +1,15 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+dm_setup	fint.sh	/^function dm_setup$/;"	f
+dmenu_install	fint.sh	/^function dmenu_install$/;"	f
+dwm_install	fint.sh	/^function dwm_install$/;"	f
+repo_setup	fint.sh	/^function repo_setup $/;"	f
+run_all	fint.sh	/^function run_all$/;"	f
+soft_install	fint.sh	/^function soft_install$/;"	f
+sys_config	fint.sh	/^function sys_config$/;"	f
+usage	fint.sh	/^function usage$/;"	f
+wm_setup	fint.sh	/^function wm_setup$/;"	f
