@@ -3,4 +3,4 @@ misc
 
 Miscellaneous goodies
 
-* fint.sh - Fedora installer script. Does some basic setup from minimal setup.
+* urld - example TCP server in Go
